@@ -1,5 +1,5 @@
 import json
-
+import datetime
 
 
 
@@ -31,6 +31,7 @@ def load_inventory():
             return json.load(file)
     except FileNotFoundError:
         return []
+
 
 snack_inventory = load_inventory()
 
@@ -66,9 +67,13 @@ def load_sales():
         return []
 
 
+sales_records=load_sales()
+
+
 # Function for adding the item sold in saleFile and Printing Total Sale
 
 def record_sale(snack_id):
+    print("Selling")
     for snack in snack_inventory:
         if snack["snack_id"] == snack_id and snack["availability"]:
             snack["availability"] = False

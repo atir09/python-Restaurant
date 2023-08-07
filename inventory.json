@@ -3,7 +3,7 @@
         "snack_id": 1,
         "name": "Samosa",
         "price": 30.0,
-        "availability": false
+        "availability": true
     },
     {
         "snack_id": 2,
