@@ -1,0 +1,14 @@
+[
+    {
+        "snack_id": 1,
+        "name": "Samosa",
+        "price": 30.0,
+        "availability": false
+    },
+    {
+        "snack_id": 2,
+        "name": "Pav Bhaji",
+        "price": 100.0,
+        "availability": true
+    }
+]
